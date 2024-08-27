@@ -1,0 +1,198 @@
+.hero{
+    height:600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../public/hero.webp");
+}
+h1{
+    font-size: 5rem;
+    text-align: center;
+    width: 50%;
+    color:#EBD3F8; 
+     background: -webkit-linear-gradient(#a35151, #e5e2e2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E6F7FF;
+}
+h2{
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    background: -webkit-linear-gradient(#d3d9f8, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+
+.blogs{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    gap:60px;
+}
+/* Blog Container */
+.blog {
+    display: flex;
+    border-radius: 15px;
+    border: 1px solid #333; 
+    height: 250px;
+    background-color: aliceblue;
+    gap: 20px; 
+    padding: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.related{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 10px; 
+}
+.blog img{
+    float: left;
+    width: 250px;
+    height:250px;
+}
+.blog h3 {
+    font-size: 1.8rem; 
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    background: -webkit-linear-gradient(#3b4cca, #1e2a78); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Blog Content */
+.blog p {
+    font-size: 1.3rem; 
+    padding: 10px; 
+    color: #333; 
+    line-height: 1.5; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Blog Metadata */
+.blog span {
+    align-self: flex-end; 
+    font-size: 0.9rem;
+    color: #555; 
+    font-family: 'Roboto', sans-serif;
+    margin-top: auto; 
+    padding-right: 10px;
+}
+.hero span{
+    font-size: 1.5rem;
+    color: #555; 
+    font-family: 'Roboto', sans-serif;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.encloser{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.blogText{
+    display: flex;
+    width: 70%;
+    text-align: left;
+}
+.blogText p{
+    font-size: 1.75rem; 
+    padding: 10px; 
+    color: #333; 
+    line-height: 1.75; 
+    font-family: 'Open Sans', sans-serif;
+}
+.encloser img{
+    width:50%;
+    margin-top: 20px;
+}
+.buttons{
+    display:flex;
+    align-self: flex-end;
+    gap:20px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+}
+.buttons button{
+    padding:20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.primary-btn{
+    background-color:purple;
+    color:aliceblue
+}
+.primary-btn:hover{
+    background-color: #6f377a;
+}
+.secondary-btn{
+    background-color: red;
+    color:aliceblue;
+}
+.secondary-btn:hover{
+    background-color: #a15d60;
+}
+.blogs .primary-btn{
+    width:fit-content;
+    padding:15px;
+    font-size:18px;
+    border-radius: 5px;
+    align-self: flex-end;
+}
+
+
+
+.footer{
+    height:200px;
+    background-color:aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.viewpageHero{
+    height: 600px;
+}
+
+.formEncloser{
+    display:flex;
+    justify-content: center;
+}
+
+form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    gap:10px;
+    font-size: 30px;
+}
+form input,textarea{
+    font-size: 20px;
+    padding:10px;
+}
+form .primary-btn{
+    width:fit-content;
+    padding:15px;
+    font-size:18px;
+    border-radius: 5px;
+    align-self: flex-end;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
